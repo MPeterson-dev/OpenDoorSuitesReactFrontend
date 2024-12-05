@@ -1,0 +1,66 @@
+/* Outer container */
+.tenant-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: flex-start; /* Align content to the top */
+    min-height: 100vh; /* Full viewport height */
+    background-color: white;
+    padding: 2rem 1rem; /* Top padding for spacing */
+}
+
+/* Header styles */
+.tenant-header {
+    font-size: 2rem;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Card styles */
+.tenant-card {
+    width: 18rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #f9f9f9;
+    margin-top: 1rem; /* Add some spacing below the header */
+    text-align: center;
+}
+
+.tenant-card img {
+    width: 100%; /* Make image span the full width */
+    height: 200px; /* Match the height from the card in Card.js */
+    object-fit: cover; /* Crop image to fit the dimensions */
+    background-color: #eaeaea; /* Light gray background for placeholder */
+}
+
+/* Card body */
+.card-body {
+    padding: 1rem;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #007bff; /* Bootstrap primary color */
+}
+
+.card-text {
+    margin: 0.25rem 0;
+    color: #555;
+}
+
+.card-services {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 1rem 0 0;
+}
+
+.card-services li {
+    margin: 0.25rem 0;
+    color: #555;
+    font-size: 0.9rem;
+}
